@@ -1,1 +1,106 @@
 
+# WorkDocs
+
+Collection de documents techniques réalisés dans le cadre de ma formation en administration systèmes, réseaux et cybersécurité.
+
+L'objectif de ce dépôt est de centraliser des travaux de recherche, de vulgarisation et de démonstration technique autour de sujets liés à la cybersécurité défensive, au monitoring et à l'analyse d'incidents.
+
+---
+
+## Documents disponibles
+
+### 1. Les Indicateurs d'Attaque et de Compromission (Version Technique)
+
+📄 **IoA&IoC-technique.pdf**
+
+Document technique détaillant l'utilisation des :
+
+- Indicators of Attack (IoA)
+- Indicators of Compromise (IoC)
+
+à travers plusieurs études de cas réalisées dans un laboratoire virtualisé.
+
+Contenu :
+
+- Concepts IoA / IoC
+- Architecture du laboratoire
+- Détection sous Windows 10
+- Détection sous Ubuntu Linux
+- Détection Active Directory
+- Authentification Kerberos
+- Kerberoasting
+- Monitoring avec Wazuh
+- Corrélation d'événements de sécurité
+
+Le document s'appuie sur des scénarios d'attaque contrôlés afin d'observer les traces laissées dans les journaux système et les mécanismes de détection associés.  [oai_citation:0‡IoA&IoC-technique.pdf](sediment://file_00000000d91471fdae73d8be894944a1)
+
+---
+
+### 2. Les Indicateurs d'Attaque et de Compromission (Version Vulgarisée)
+
+📄 **IoA&IoC-vulgarization.pdf**
+
+Version simplifiée et pédagogique destinée à présenter les concepts d'IoA et d'IoC à travers des analogies visuelles et des scénarios concrets.
+
+Contenu :
+
+- Différence entre IoA et IoC
+- Explication progressive d'une attaque
+- Reconnaissance réseau
+- Bruteforce SSH
+- Accès initial
+- Élévation de privilèges
+- Persistance
+- Création de backdoor
+- Détection des traces de compromission
+
+Cette version est conçue pour rendre accessibles des concepts de cybersécurité parfois complexes à un public débutant ou non technique.  [oai_citation:1‡IoA&IoC-vulgarization.pdf](sediment://file_000000001c647230bfde4f95fe2d548b)
+
+---
+
+## Technologies et concepts abordés
+
+- Linux
+- Windows
+- Active Directory
+- Kerberos
+- Wazuh
+- Sysmon
+- Auditd
+- Journald
+- SMB
+- SSH
+- BloodHound
+- CrackMapExec
+- Hydra
+- Hashcat
+- Impacket
+- SIEM
+- SOC
+- Threat Detection
+- Incident Response
+
+---
+
+## Objectif
+
+Ces documents ont été réalisés dans un contexte pédagogique et de laboratoire.
+
+Toutes les démonstrations, simulations d'attaque et analyses présentées ont été effectuées dans des environnements contrôlés, isolés et autorisés.
+
+Ils ont pour vocation de :
+
+- illustrer des concepts de cybersécurité défensive ;
+- démontrer des mécanismes de détection ;
+- développer des compétences SOC et Blue Team ;
+- documenter des travaux réalisés durant ma formation.
+
+---
+
+## Auteur
+
+**Charles-Evert Pire**
+
+Passionné par l'administration systèmes, les infrastructures virtualisées et la cybersécurité défensive.
+
+GitHub : https://github.com/scpchev
