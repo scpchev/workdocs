@@ -1,0 +1,157 @@
+# PlayZone 2025 - Team Cyber
+
+## Description
+
+Ce document présente le projet **PlayZone 2025**, réalisé dans le cadre d'une formation en cybersécurité menée en collaboration avec Technobel et NRB.
+
+L'objectif du projet était de concevoir et déployer une infrastructure cyber complète permettant :
+
+- la collecte centralisée des journaux de sécurité ;
+- la mise en œuvre d'un SOC basé sur Splunk ;
+- la simulation d'attaques réalistes ;
+- la validation continue des mécanismes de détection ;
+- l'automatisation des tests de use cases SOC.
+
+---
+
+## Objectifs
+
+### Objectif principal
+
+Optimiser le processus de validation des détections de sécurité grâce à des scénarios reproductibles et automatisés.
+
+### Objectifs secondaires
+
+- Automatiser l'exécution de scénarios d'attaque.
+- Générer ou rejouer des logs d'attaques réelles.
+- Tester les capacités de détection du SIEM.
+- Réduire le temps nécessaire à la validation des use cases SOC.
+
+---
+
+## Infrastructure déployée
+
+Le projet comprend notamment :
+
+### Infrastructure réseau
+
+- VLANs segmentés
+- VPN IPsec Client-to-Site
+- VPN IPsec Site-to-Site
+- Firewalls Fortigate
+- Bastion d'administration
+
+### Datacenter
+
+- Proxmox
+- Active Directory
+- File Servers
+- DNS
+- DHCP
+- PKI (Certificate Authorities)
+- Guacamole
+- pfSense
+- GoPhish
+- Serveurs Linux et Windows
+
+### SIEM
+
+- Splunk Enterprise
+- Universal Forwarders
+- Collecteur Syslog dédié
+- Centralisation des journaux réseau
+- Déploiement automatisé via Ansible
+
+---
+
+## Cas d'usage présentés
+
+Le document présente plusieurs scénarios permettant de valider la visibilité du SOC :
+
+- Découverte réseau via Nmap
+- Scans horizontaux et verticaux
+- Identification de services Active Directory
+- Détection LDAP
+- Tentatives de brute force
+- Corrélation d'événements dans Splunk
+- Analyse de risques et scoring des incidents
+- Dashboards de supervision
+
+---
+
+## Automatisation des détections
+
+Une partie importante du projet est consacrée à la mise en œuvre d'une solution d'automatisation inspirée des pratiques **Detection as Code**.
+
+Fonctionnalités :
+
+- Génération de logs réalistes à partir d'incidents réels
+- Injection automatisée dans Splunk
+- Validation des use cases
+- Tests automatisés
+- Intégration Git
+- CI/CD
+- Détection de régressions
+
+---
+
+## Technologies utilisées
+
+### Infrastructure
+
+- Proxmox
+- Fortigate
+- pfSense
+- Guacamole
+- Active Directory
+
+### SIEM & Monitoring
+
+- Splunk Enterprise
+- Splunk Universal Forwarder
+- Syslog
+- Ansible
+
+### Sécurité offensive
+
+- Nmap
+- Hydra
+- LDAP
+- Active Directory
+
+### DevOps
+
+- Git
+- Forgejo
+- CI/CD
+- YAML
+
+---
+
+## Compétences développées
+
+- Architecture réseau sécurisée
+- Administration systèmes Windows et Linux
+- Gestion d'un SIEM
+- Détection d'incidents
+- Threat Hunting
+- Analyse de logs
+- Automatisation
+- Infrastructure SOC
+- Detection Engineering
+
+---
+
+## Contexte
+
+Ce document a été réalisé dans un cadre pédagogique et de laboratoire.
+
+Toutes les démonstrations, simulations d'attaque et analyses ont été effectuées dans des environnements contrôlés et autorisés.
+
+---
+
+## Auteur
+
+Charles-Evert Pire
+
+GitHub : https://github.com/scpchev
